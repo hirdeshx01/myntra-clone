@@ -16,24 +16,22 @@ class HomeScreen extends StatelessWidget {
           height: 28,
           width: 28,
         ),
-        actions: const [
-          Icon(
-            Icons.add_box_outlined,
+        actions: [
+          IconButton(
+            onPressed: () {},
+            icon: const Icon(Icons.add_box_outlined),
           ),
-          SizedBox(
-            width: 12,
+          IconButton(
+            onPressed: () {},
+            icon: const Icon(Icons.search),
           ),
-          Icon(Icons.search),
-          SizedBox(
-            width: 12,
+          IconButton(
+            onPressed: () {},
+            icon: const Icon(Icons.favorite_outline_rounded),
           ),
-          Icon(Icons.favorite_outline_outlined),
-          SizedBox(
-            width: 12,
-          ),
-          Icon(Icons.shopping_bag_outlined),
-          SizedBox(
-            width: 12,
+          IconButton(
+            onPressed: () {},
+            icon: const Icon(Icons.shopping_bag_outlined),
           ),
         ],
       ),

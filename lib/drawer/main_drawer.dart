@@ -52,7 +52,10 @@ class MainDrawer extends StatelessWidget {
             const MoreDrawerOption(option: 'Contact Us'),
             const MoreDrawerOption(option: 'FAQs'),
             const MoreDrawerOption(option: 'Legal'),
-            Image.asset('assets/images/drawer-footer.webp'),
+            Image.asset(
+              'assets/images/drawer-footer.webp',
+              fit: BoxFit.cover,
+            ),
             Container(
               padding: EdgeInsets.zero,
               width: double.maxFinite,
