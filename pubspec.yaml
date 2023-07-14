@@ -19,5 +19,14 @@ flutter:
   uses-material-design: true
   assets:
     - assets/icons/myntra.png
-    - assets/images/drawer-header.jpeg
+    - assets/images/drawer-header.webp
+    - assets/images/categories.png
+    - assets/images/kids.jpg
+    - assets/images/men.jpg
+    - assets/images/women.jpg
+    - assets/images/footwear.jpg
+    - assets/images/accessories.jpg
+    - assets/images/jewellery.jpg
+    - assets/images/beauty.jpg
     - assets/images/drawer-footer.webp
+    - assets/images/offer.webp

@@ -2,8 +2,6 @@ import 'package:flutter/material.dart';
 
 import 'package:myntra_clone/home/home_screen.dart';
 
-final theme = ThemeData(useMaterial3: true);
-
 void main() {
   runApp(const MainApp());
 }
@@ -14,7 +12,7 @@ class MainApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      theme: theme,
+      theme: ThemeData(useMaterial3: true),
       home: const HomeScreen(),
     );
   }

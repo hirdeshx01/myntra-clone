@@ -17,15 +17,15 @@ class MainDrawer extends StatelessWidget {
                 DrawerHeader(
                   padding: EdgeInsets.zero,
                   child: Image.asset(
-                    'assets/images/drawer-header.jpeg',
+                    'assets/images/drawer-header.webp',
                     height: double.infinity,
                     width: double.infinity,
                     fit: BoxFit.cover,
                   ),
                 ),
                 Positioned(
-                  bottom: 3,
-                  right: 10,
+                  bottom: 15,
+                  right: 25,
                   child: TextButton(
                     onPressed: () {},
                     child: const Text(
@@ -56,8 +56,7 @@ class MainDrawer extends StatelessWidget {
               'assets/images/drawer-footer.webp',
               fit: BoxFit.cover,
             ),
-            Container(
-              padding: EdgeInsets.zero,
+            SizedBox(
               width: double.maxFinite,
               child: FilledButton(
                 style: ButtonStyle(
