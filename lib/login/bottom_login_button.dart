@@ -47,7 +47,7 @@ class BottomLoginButton extends StatelessWidget {
           TextButton(
             onPressed: () {},
             child: Text(
-              'Insider Terms and conditions',
+              'Insider Terms and Conditions',
               style: Theme.of(context)
                   .textTheme
                   .bodyLarge!

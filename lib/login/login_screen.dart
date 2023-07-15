@@ -14,7 +14,7 @@ class LoginScreen extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Image.asset('assets/images/login.webp'),
+            Image.asset('assets/images/login/login.webp'),
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 12),
               child: Text(
@@ -87,7 +87,7 @@ class LoginScreen extends StatelessWidget {
             ),
             Padding(
               padding: const EdgeInsets.all(12),
-              child: Image.asset('assets/images/login2.png'),
+              child: Image.asset('assets/images/login/login2.png'),
             ),
             const SizedBox(height: 130)
           ],

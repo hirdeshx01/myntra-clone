@@ -43,42 +43,53 @@ class HomeScreen extends StatelessWidget {
             scrollDirection: Axis.horizontal,
             child: Row(
               children: [
-                Categories(
-                  categoryImage: 'assets/images/categories.png',
-                  categoryName: 'Categories',
+                SizedBox(
+                  width: 10,
+                ),
+                Column(
+                  children: [
+                    CircleAvatar(
+                      radius: 40,
+                      child: Icon(
+                        Icons.window,
+                        size: 50,
+                      ),
+                    ),
+                    Text('Categories'),
+                  ],
                 ),
                 Categories(
-                  categoryImage: 'assets/images/men.jpg',
+                  categoryImage: 'assets/images/home/men.jpg',
                   categoryName: 'Men',
                 ),
                 Categories(
-                  categoryImage: 'assets/images/women.jpg',
+                  categoryImage: 'assets/images/home/women.jpg',
                   categoryName: 'Women',
                 ),
                 Categories(
-                  categoryImage: 'assets/images/kids.jpg',
+                  categoryImage: 'assets/images/home/kids.jpg',
                   categoryName: 'Kids',
                 ),
                 Categories(
-                  categoryImage: 'assets/images/footwear.jpg',
+                  categoryImage: 'assets/images/home/footwear.jpg',
                   categoryName: 'Footwear',
                 ),
                 Categories(
-                  categoryImage: 'assets/images/accessories.jpg',
+                  categoryImage: 'assets/images/home/accessories.jpg',
                   categoryName: 'Accessories',
                 ),
                 Categories(
-                  categoryImage: 'assets/images/beauty.jpg',
+                  categoryImage: 'assets/images/home/beauty.jpg',
                   categoryName: 'Beauty',
                 ),
                 Categories(
-                  categoryImage: 'assets/images/jewellery.jpg',
+                  categoryImage: 'assets/images/home/jewellery.jpg',
                   categoryName: 'Jewellery',
                 ),
               ],
             ),
           ),
-          Image.asset('assets/images/offer.webp'),
+          Image.asset('assets/images/home/offer.webp'),
           SizedBox(
             width: double.infinity,
             child: FilledButton(
@@ -96,6 +107,10 @@ class HomeScreen extends StatelessWidget {
               child: const Text('Sign Up For Exciting Deals!'),
             ),
           ),
+          const SizedBox(
+            height: 12,
+          ),
+          const Text('ALL TIME FAVOURITES'),
         ],
       ),
     );

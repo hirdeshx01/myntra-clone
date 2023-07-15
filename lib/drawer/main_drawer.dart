@@ -17,7 +17,7 @@ class MainDrawer extends StatelessWidget {
                 DrawerHeader(
                   padding: EdgeInsets.zero,
                   child: Image.asset(
-                    'assets/images/drawer-header.webp',
+                    'assets/images/drawer/drawer-header.webp',
                     height: double.infinity,
                     width: double.infinity,
                     fit: BoxFit.cover,
@@ -53,7 +53,7 @@ class MainDrawer extends StatelessWidget {
             const MoreDrawerOption(option: 'FAQs'),
             const MoreDrawerOption(option: 'Legal'),
             Image.asset(
-              'assets/images/drawer-footer.webp',
+              'assets/images/drawer/drawer-footer.webp',
               fit: BoxFit.cover,
             ),
             SizedBox(
