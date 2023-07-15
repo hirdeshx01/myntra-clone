@@ -24,7 +24,10 @@ class GridItems extends StatelessWidget {
             alignment: Alignment.topCenter,
           ),
         ),
-        Text(imageInfo),
+        Text(
+          imageInfo,
+          style: const TextStyle(fontWeight: FontWeight.bold),
+        ),
       ],
     );
   }

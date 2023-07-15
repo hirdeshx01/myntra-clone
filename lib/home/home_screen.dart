@@ -113,7 +113,10 @@ class HomeScreen extends StatelessWidget {
             const SizedBox(
               height: 12,
             ),
-            const Text('ALL TIME FAVOURITES'),
+            const Text(
+              'ALL TIME FAVOURITES',
+              style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
+            ),
             GridView(
               shrinkWrap: true,
               physics: const NeverScrollableScrollPhysics(),

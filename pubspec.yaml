@@ -14,6 +14,14 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^2.0.0
+  flutter_launcher_icons: "^0.13.1"
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icons/myntra.png"
+  min_sdk_android: 21
+
 
 flutter:
   uses-material-design: true
@@ -31,6 +39,10 @@ flutter:
     - assets/images/home/kurta-set.jpg
     - assets/images/home/tops.jpg
     - assets/images/home/dresses.jpg
+    - assets/images/home/flip-flop.jpg
+    - assets/images/home/kurtas.jpg
+    - assets/images/home/t-shirt.jpg
+    - assets/images/home/track-pant.jpg
     - assets/images/drawer/drawer-footer.webp
     - assets/images/home/offer.webp
     - assets/images/login/login.webp
