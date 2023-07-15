@@ -12,16 +12,18 @@ class GridItems extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return GridView(
-      padding: const EdgeInsets.all(16),
-      gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-        crossAxisCount: 2,
-        childAspectRatio: 3 / 2,
-        crossAxisSpacing: 16,
-        mainAxisSpacing: 16,
-      ),
+    return Column(
       children: [
-        Image.asset(imagePath),
+        ClipRRect(
+          borderRadius: BorderRadius.circular(10),
+          child: Image.asset(
+            imagePath,
+            height: 100,
+            width: double.maxFinite,
+            fit: BoxFit.cover,
+            alignment: Alignment.topCenter,
+          ),
+        ),
         Text(imageInfo),
       ],
     );

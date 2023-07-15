@@ -27,6 +27,10 @@ flutter:
     - assets/images/home/accessories.jpg
     - assets/images/home/jewellery.jpg
     - assets/images/home/beauty.jpg
+    - assets/images/home/shoes.jpg
+    - assets/images/home/kurta-set.jpg
+    - assets/images/home/tops.jpg
+    - assets/images/home/dresses.jpg
     - assets/images/drawer/drawer-footer.webp
     - assets/images/home/offer.webp
     - assets/images/login/login.webp
